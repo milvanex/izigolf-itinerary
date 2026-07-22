@@ -9,5 +9,7 @@ jobs:
   ping-supabase:
     runs-on: ubuntu-latest
     steps:
-      - name: Ping Supabase URL
+      - name: Ping Supabase URL 1
         run: curl -I "https://zxpobxfcrhfkgipnqgad.supabase.co"
+      - name: Ping Supabase URL 2
+        run: curl -I "https://larfuquizeskcaqsdwmk.supabase.co"
